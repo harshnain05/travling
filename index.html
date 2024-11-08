@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>travel</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="stylesheet" href="/assets/css/style.css">
+    </head>
+
+    <body class="w-full ">
+        <div class="container px-3 mx-auto max-w-[1760px] w-full bg-white">
+            <nav class="flex justify-between items-center xl:py-5 lg:py-4 py-3">
+                <a href="/"><img class="2xl:max-w-[273px] xl:max-w-48 lg:max-w-40 max-w-32"
+                        src="./assets/images/svg/nav-bar-logo.svg" alt="page-logo"></a>
+                <div
+                    class="flex menulist justify-center bg-white items-center duration-300 ease-linear  w-full -right-full min-h-screen fixed top-0  z-[100] lg:relative lg:min-h-fit lg:w-fit lg:flex-row lg:right-0 ">
+                    <div
+                        class="font-medium xl:text-2xl lg:text-xl md:text-lg text-base text-[#41546B] lg:gap-[50px] gap-5 flex max-lg:flex-col max-lg:text-center">
+                        <a class="duration-300 ease-linear hover:text-[#ED8C0C]" href="#about">About Us</a>
+                        <a class="duration-300 ease-linear hover:text-[#ED8C0C]" href="#services">Services</a>
+                        <a class="duration-300 ease-linear hover:text-[#ED8C0C]" href="#contact">Contact</a>
+                        <a class="duration-300 ease-linear hover:text-[#ED8C0C]" href="#quote">Get a Quote</a>
+                        <div class="max-lg:block hidden">
+                            <button
+                                class="flex bg-[#41546B] hover:bg-red-600 duration-300 ease-linear gap-3 font-medium xl:text-2xl lg:text-xl md:text-lg text-base text-white px-5 py-3">
+                                <svg width="30" height="31" viewBox="0 0 30 31" fill="none" xmlns="#">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M17.9448 3.00991C17.666 2.96994 17.3859 3.05238 17.163 3.22976C16.934 3.40964 16.7908 3.66946 16.7597 3.96051C16.6937 4.54886 17.1182 5.08099 17.7058 5.14719C21.7579 5.59938 24.9074 8.75597 25.363 12.8207C25.424 13.3653 25.8809 13.7763 26.4262 13.7763C26.4672 13.7763 26.5071 13.7738 26.5482 13.7688C26.8332 13.7375 27.0872 13.5964 27.2664 13.3715C27.4445 13.1467 27.5254 12.8669 27.493 12.5808C26.9254 7.50932 23.0003 3.57328 17.9448 3.00991ZM18.0226 7.36242C17.4276 7.2525 16.8811 7.63224 16.7678 8.21309C16.6545 8.79394 17.0354 9.36105 17.6143 9.47472C19.3571 9.81449 20.7028 11.1636 21.0439 12.9124V12.9136C21.141 13.417 21.5842 13.783 22.0946 13.783C22.1631 13.783 22.2315 13.7768 22.3013 13.7643C22.8801 13.6481 23.2611 13.0822 23.1478 12.5001C22.6386 9.88819 20.6281 7.87082 18.0226 7.36242ZM20.0001 19.3632C20.5644 19.0378 21.2018 18.6703 22.0058 18.8413C22.7341 18.9949 25.2164 21.0098 25.8961 21.7081C26.3418 22.1653 26.5895 22.6374 26.6281 23.1096C26.6953 24.9621 24.1782 27.0769 23.72 27.3405C23.1113 27.7789 22.403 28 21.6075 28C20.7946 28 19.8883 27.7689 18.8999 27.308C13.5369 25.0695 5.34441 17.0388 3.17833 11.7174C2.27952 9.73629 2.2733 8.10241 3.16339 6.87451C3.51818 6.29865 5.5411 3.89156 7.3524 3.96775C7.83417 4.00898 8.30224 4.25631 8.7616 4.706C9.45624 5.38678 11.4207 7.87632 11.5725 8.60707C11.7406 9.41901 11.3721 10.0648 11.0447 10.6319C10.9749 10.7538 10.8808 10.8985 10.7777 11.057C10.3865 11.6585 9.8658 12.4592 10.05 12.9703C11.3709 16.2131 14.4221 19.0424 17.6662 20.3715C18.1679 20.5538 18.9681 20.0294 19.5677 19.6365C19.7239 19.5341 19.8665 19.4406 19.9867 19.3709L20.0001 19.3632Z"
+                                        fill="white" />
+                                </svg><a href="tel-347-385-6647">347-385-6647</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="max-lg:hidden">
+                    <button
+                        class="flex bg-[#41546B] hover:bg-red-600 duration-300 ease-linear gap-3 font-medium xl:text-2xl lg:text-xl md:text-lg sm:text-base text-xs text-white px-5 py-3">
+                        <svg width="30" height="31" viewBox="0 0 30 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M17.9448 3.00991C17.666 2.96994 17.3859 3.05238 17.163 3.22976C16.934 3.40964 16.7908 3.66946 16.7597 3.96051C16.6937 4.54886 17.1182 5.08099 17.7058 5.14719C21.7579 5.59938 24.9074 8.75597 25.363 12.8207C25.424 13.3653 25.8809 13.7763 26.4262 13.7763C26.4672 13.7763 26.5071 13.7738 26.5482 13.7688C26.8332 13.7375 27.0872 13.5964 27.2664 13.3715C27.4445 13.1467 27.5254 12.8669 27.493 12.5808C26.9254 7.50932 23.0003 3.57328 17.9448 3.00991ZM18.0226 7.36242C17.4276 7.2525 16.8811 7.63224 16.7678 8.21309C16.6545 8.79394 17.0354 9.36105 17.6143 9.47472C19.3571 9.81449 20.7028 11.1636 21.0439 12.9124V12.9136C21.141 13.417 21.5842 13.783 22.0946 13.783C22.1631 13.783 22.2315 13.7768 22.3013 13.7643C22.8801 13.6481 23.2611 13.0822 23.1478 12.5001C22.6386 9.88819 20.6281 7.87082 18.0226 7.36242ZM20.0001 19.3632C20.5644 19.0378 21.2018 18.6703 22.0058 18.8413C22.7341 18.9949 25.2164 21.0098 25.8961 21.7081C26.3418 22.1653 26.5895 22.6374 26.6281 23.1096C26.6953 24.9621 24.1782 27.0769 23.72 27.3405C23.1113 27.7789 22.403 28 21.6075 28C20.7946 28 19.8883 27.7689 18.8999 27.308C13.5369 25.0695 5.34441 17.0388 3.17833 11.7174C2.27952 9.73629 2.2733 8.10241 3.16339 6.87451C3.51818 6.29865 5.5411 3.89156 7.3524 3.96775C7.83417 4.00898 8.30224 4.25631 8.7616 4.706C9.45624 5.38678 11.4207 7.87632 11.5725 8.60707C11.7406 9.41901 11.3721 10.0648 11.0447 10.6319C10.9749 10.7538 10.8808 10.8985 10.7777 11.057C10.3865 11.6585 9.8658 12.4592 10.05 12.9703C11.3709 16.2131 14.4221 19.0424 17.6662 20.3715C18.1679 20.5538 18.9681 20.0294 19.5677 19.6365C19.7239 19.5341 19.8665 19.4406 19.9867 19.3709L20.0001 19.3632Z"
+                                fill="white" />
+                        </svg>
+                        <a href="tel-347-385-6647">347-385-6647</a></button>
+                </div>
+                <div
+                    class="flex flex-col lg:hidden menubar justify-between cursor-pointer z-[200] scroll-m-0 lg:w-8 w-[26px] lg:h-6 h-5">
+                    <span
+                        class="w-full h-1 flex rounded-md transition-all duration-500 bg-black menubarFirst origin-left"></span>
+                    <span
+                        class="w-full h-1 flex rounded-md transition-all duration-500 bg-black menubarSecond origin-left"></span>
+                    <span
+                        class="w-full h-1 flex rounded-md transition-all duration-500 bg-black menubarThird origin-left"></span>
+                </div>
+            </nav>
+        </div>
+
+        <!-- ============================================= -->
+        <section class="bg-s max-[1024px]:px-5 max-w-[1920px] mx-auto">
+            <div
+                class="relative flex justify-center items-center h-screen bg-cover bg-center p-6   sm:p-14 md:p-[80px]">
+                <div class="absolute inset-0 bg-black opacity-5"></div>
+                <div
+                    class="relative me-auto max-[1024px]:ms-5 ms-[-80px] bg-black bg-opacity-100  max-w-[950px] p-[80px] max-2xl:p-10 sm:max-w-3xl lg:max-w-[750px] 2xl:max-w-[950px] text-white max-sm:p-8 max-md:p-14">
+                    <div class="mb-4 flex items-center justify-center sm:justify-start">
+                        <img src="/assets/images/svg/black-crd-logo.svg" alt="Logo"
+                            class="max-w-[180px] sm:max-w-[273px]">
+                    </div>
+                    <h1
+                        class="text-3xl  max-[426px]:text-3xl  lg:text-[5rem] max-[769px]:text-5xl max-w-[772px]  leading-snug sm:leading-[4rem] lg:leading-[5rem]  mt-6 sm:mt-10 jost font-medium">
+                        Escape to Paradise with
+                        <span class="underline  max-[426px]:text-3xl  max-[769px]:text-5xl text-[#ED8C0C]">Clever Travel</span>
+                    </h1>
+                    <p class="text-gray-300 mt-4 sm:mt-5  max-[426px]:text-base  leading-7 max-sm:text-lg text-[1.31rem] max-w-xl mb-6">
+                        Discover the peace and beauty of breathtaking destinations, meticulously selected by our travel
+                        professionals to offer you a relaxing and luxurious escape.
+                    </p>
+                    <a href="#book"
+                        class="inline-block py-4 px-6 sm:py-5 sm:px-8 text-lg sm:text-2xl mt-4 sm:mt-8 bg-[#ED8C0C] hover:bg-yellow-300 duration-300 text-white font-semibold rounded-md">
+                        Book Now
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================ -->
+        <section class="max-w-[1920px] mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <img class="mx-auto mt-10 sm:mt-20" src="/assets/images/svg/nav-bar-logo.svg" alt="">
+                <h2
+                    class="text-center font-medium text-3xl max-[769px]:text-3xl max-[769px]:mt-[25px]  lg:text-6xl leading-tight sm:leading-[72px] jost underline text-[#ED8C0C]">
+                    Clever Travel Solutions:<br>
+                </h2>
+                <span
+                    class="font-medium jost text-2xl max-[426px]:text-lg sm:text-3xl max-[769px]:mb-[25px] md:text-3xl lg:text-6xl flex justify-center leading-tight sm:leading-[72px] text-[#41546B]">
+                    Your Trusted Travel Partner
+                </span>
+                <p
+                    class="max-w-lg sm:max-w-xl md:max-w-3xl mx-auto mb-8 sm:mb-12 lg:mb-20 pop text-sm sm:text-base md:text-lg leading-relaxed text-center text-[#41546B]">
+                    Clever Travel Solutions specializes in booking the best and most affordable flight options,
+                    particularly
+                    for international business and first-class travel. Our exceptional customer service ensures a
+                    seamless
+                    and enjoyable travel experience from start to finish.
+                </p>
+            </div>
+
+            <div class="flex flex-col xl:flex-row lg:justify-around lg:space-x-6">
+                <div class="flex flex-col  items-center xl:items-start lg:space-y-10">
+                    <div class="text-center lg:text-left">
+                        <img class="sm:ms-[135px] max-[590px]:ms-[145px] max-[321px]:ms-[120px] lg:ms-0 "
+                            src="/assets/images/svg/coconut.svg" alt="">
+                        <h4 class="underline font-semibold text-xl sm:text-2xl lg:text-3xl mt-5 text-[#41546B]">
+                            Convenience</h4>
+                        <p class="max-w-[345px] mt-3 text-base md:text-lg pop leading-6 text-[#41546B]">
+                            Simplify your travel planning with a one-stop solution that handles all the details, from
+                            booking
+                            flights to arranging accommodations.
+                        </p>
+                    </div>
+
+                    <div class="text-center lg:text-left mt-8 lg:mt-10">
+                        <img class="sm:ms-[135px] max-[590px]:ms-[145px] max-[321px]:ms-[120px] lg:ms-0 "
+                            src="/assets/images/svg/bed.svg" alt="">
+                        <h4 class="underline font-semibold text-xl sm:text-2xl lg:text-3xl mt-5 text-[#41546B]">Luxury
+                        </h4>
+                        <p class="max-w-[345px] mt-3 text-base md:text-lg pop leading-6 text-[#41546B]">
+                            Indulge in personalized, high-end travel experiences tailored to your preferences.
+                        </p>
+                    </div>
+                </div>
+                <img class="my-8 lg:my-0 w-full lg:w-auto lg:flex-shrink-0" src="/assets/images/png/man-img.png" alt="">
+                <div class="flex flex-col  items-center xl:items-start lg:space-y-10">
+                    <div class="text-center lg:text-left">
+                        <img class="sm:ms-[135px] max-[590px]:ms-[145px] max-[321px]:ms-[120px] lg:ms-0 "
+                            src="/assets/images/svg/token.svg" alt="">
+                        <h4 class="underline font-semibold text-xl sm:text-2xl lg:text-3xl mt-5 text-[#41546B]">
+                            Expertise</h4>
+                        <p class="max-w-[345px] mt-3 text-base md:text-lg pop leading-6 text-[#41546B]">
+                            Benefit from the knowledge and insider insights of travel professionals who know the best
+                            destinations, deals, and itineraries.
+                        </p>
+                    </div>
+
+                    <div class="text-center lg:text-left mt-8 lg:mt-10">
+                        <img class="sm:ms-[135px] max-[590px]:ms-[145px] max-[321px]:ms-[110px] lg:ms-0"
+                            src="/assets/images/svg/meater.svg" alt="">
+                        <h4 class="underline font-semibold text-xl sm:text-2xl lg:text-3xl mt-5 text-[#41546B]">Savings
+                        </h4>
+                        <p class="max-w-[345px] mt-3 text-base md:text-lg pop leading-6 text-[#41546B]">
+                            Maximize your travel budget with access to exclusive discounts and special deals.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-20 lg:mt-32 text-center">
+                <h2
+                    class="text-[#41546B] text-2xl sm:text-4xl md:text-4xl lg:text-6xl font-medium jost leading-tight sm:leading-[72px]">
+                    <span class="text-[#ED8C0C] underline">Services</span> We Offer
+                </h2>
+                <p
+                    class="text-center text-sm sm:text-base md:text-base leading-relaxed mt-5 pop mx-auto max-w-3xl text-[#41546B]">
+                    We offer a comprehensive range of travel solutions designed to make your journey effortless and
+                    enjoyable.
+                    From personalized trip planning and exclusive deals to expert advice and 24/7 support, we handle
+                    every
+                    detail to ensure a seamless and memorable travel experience. Whether you need assistance with
+                    bookings,
+                    insurance, or custom experiences, our team is here to provide exceptional service tailored to your
+                    needs.
+                </p>
+            </div>
+        </section>
+
+        <!-- ============================================ -->
+        <section class="bg-white sm:px-4  max-w-[1920px]  max-[590px]:p-5 mx-auto">
+            <div class="relative max-md:justify-center ">
+                <img class="absolute max-xl:hidden bottom-0 " src="/assets/images/png/img-back-frame.png" alt="">
+                <img class="mt-[90px] max-md:mt-[70px] max-md:mx-auto sm:mx-auto relative xl:ms-[148px] max-[590px]:w-[500px] sm:w-[700px]  xl:w-[832px] max-[1025px]:mb-[30px] "
+                    src="/assets/images/png/1st-crd-hotel.png" alt="">
+                <div
+                    class="drk-blue-bg max-md: max-w-[734px] max-[1025px]:mx-auto right-[16%] top-[10%] p-[60px] xl:absolute">
+                    <h2
+                        class="text-[#ED8C0C] underline john font-semibold  max-[590px]:text-xl text-3xl mb-5 leading-[30px]">
+                        Personalized
+                        Travel
+                        Concierge</h2>
+                    <p class="pop text-lg leading-[30px]  max-[590px]:text-base text-white mb-10">Enjoy tailored travel
+                        planning and expert
+                        support
+                        throughout your journey. Our concierge services ensure every detail is
+                        handled to your specifications, providing a seamless and personalized experience from start to
+                        finish.</p>
+                    <button
+                        class="px-12 py-6 border text-white  max-[590px]:text-sm hover:bg-white hover:text-black jost font-semibold text-2xl leading-6 border-white">
+                        Book Now
+                    </button>
+                </div>
+            </div>
+        </section>
+        <!-- ====================== -->
+        <section class="bg-white  max-w-[1920px]  max-[590px]:p-5 mx-auto">
+            <div class="relative">
+                <img class="absolute top-0 max-xl:hidden right-[9%]" src="/assets/images/png/opposit-frame.png" alt="">
+                <img class="mt-[90px] relative xl:me-[310px] max-[1025px]:mx-auto sm:w-[700px] max-[590px]:w-[500px] ms-auto  xl:w-[832px] max-[1025px]:mb-[30px] "
+                    src="/assets/images/png/single-man.png" alt="">
+
+                <div class="drk-blue-bg max-w-[734px]  left-[7.5%] max-[1025px]:mx-auto top-[10%] p-[60px] xl:absolute">
+                    <h2
+                        class="text-[#ED8C0C] underline john font-semibold text-3xl  max-[590px]:text-xl mb-5 leading-[30px]">
+                        Luxury Travel
+                        Experiences
+                    </h2>
+                    <p class="pop text-lg leading-[30px]  max-[590px]:text-base text-white mb-10">Experience the height
+                        of luxury with bespoke
+                        travel arrangements and premium accommodations. From exclusive offers to
+                        customized itineraries, we deliver unparalleled comfort and sophistication for your ultimate
+                        enjoyment.</p>
+                    <button
+                        class="px-12 py-6 border text-white  max-[590px]:text-sm hover:bg-white hover:text-black jost font-semibold text-2xl leading-6 border-white">
+                        Book Now
+                    </button>
+                </div>
+            </div>
+        </section>
+        <!-- ============================== -->
+        <section class="bg-white  max-w-[1920px]  max-[590px]:p-5 mx-auto">
+            <div class="relative">
+                <img class="absolute max-xl:hidden bottom-0 " src="/assets/images/png/img-back-frame.png" alt="">
+                <img class="mt-[90px] relative xl:ms-[148px] max-[1025px]:mx-auto sm:w-[700px] max-[590px]:w-[500px] xl:w-[832px] mb-[90px] max-[1025px]:mb-[30px] "
+                    src="/assets/images/png/mans-img.png" alt="">
+                <div class="drk-blue-bg max-w-[734px] max-[1025px]:mx-auto right-[16%]  top-[10%] p-[60px] xl:absolute">
+                    <h2
+                        class="text-[#ED8C0C] underline john font-semibold text-3xl  max-[590px]:text-xl mb-5 leading-[30px]">
+                        Seamless Group
+                        Travel</h2>
+                    <p class="pop text-lg leading-[30px]  max-[590px]:text-base text-white mb-10">Effortlessly
+                        coordinate group trips with our
+                        comprehensive management services. Perfect for corporate events, family
+                        vacations, and special occasions, we ensure smooth arrangements and memorable experiences for
+                        all participants.</p>
+                    <button
+                        class="px-12 py-6 border text-white  max-[590px]:text-sm hover:bg-white hover:text-black jost font-semibold text-2xl leading-6 border-white">
+                        Book Now
+                    </button>
+                </div>
+            </div>
+        </section>
+        <!-- =========================== -->
+        <section class="bg-white  max-w-[1920px]  max-[590px]:p-5 mx-auto">
+            <div class="relative">
+                <img class="absolute top-0 max-xl:hidden right-[9%]" src="/assets/images/png/opposit-frame.png" alt="">
+                <img class="mt-[90px] relative me-[310px] max-[1025px]:mx-auto sm:w-[700px] max-[590px]:w-[500px] ms-auto  xl:w-[832px] max-[1025px]:mb-[30px] mb-[90px] "
+                    src="/assets/images/png/jet.png" alt="">
+
+                <div class="drk-blue-bg max-w-[734px] max-[1025px]:mx-auto left-[7.5%]  top-[10%] p-[60px] xl:absolute">
+                    <h2
+                        class="text-[#ED8C0C] underline john font-semibold  max-[590px]:text-xl text-3xl mb-5 leading-[30px]">
+                        VIP Airport
+                        Services
+                    </h2>
+                    <p class="pop text-lg leading-[30px]  max-[590px]:text-base text-white mb-10">Travel with ease using
+                        our VIP airport
+                        services, including priority check-in, exclusive lounge access, and personalized
+                        assistance. We handle the details to provide you with a stress-free and comfortable airport
+                        experience.</p>
+                    <button
+                        class="px-12 py-6 border text-white  max-[590px]:text-sm hover:bg-white hover:text-black jost font-semibold text-2xl leading-6 border-white">
+                        Book Now
+                    </button>
+                </div>
+            </div>
+        </section>
+        <!-- ==================================== -->
+        <section class="bg-white  max-w-[1920px]  max-[590px]:p-5 mx-auto">
+            <div class="relative">
+                <img class="absolute max-xl:hidden bottom-0 " src="/assets/images/png/img-back-frame.png" alt="">
+                <img class="mt-[90px] relative xl:ms-[148px] max-[1025px]:mb-[30px] max-[1025px]:mx-auto sm:w-[700px] max-[590px]:w-[500px] xl:w-[832px] mb-[90px] "
+                    src="/assets/images/png/bad-img.png" alt="">
+                <div
+                    class="drk-blue-bg max-w-[734px] max-[1025px]:mx-auto  right-[16%]  top-[10%] p-[60px]  xl:absolute">
+                    <h2
+                        class="text-[#ED8C0C] underline  max-[590px]:text-xl john font-semibold text-3xl mb-5 leading-[30px]">
+                        Curated Hotel
+                        Stays</h2>
+                    <p class="pop text-lg leading-[30px]  max-[590px]:text-base text-white mb-10">Discover a range of
+                        exceptional lodging
+                        options carefully selected to meet your needs. From charming boutique hotels to
+                        luxurious resorts, we ensure your accommodations enhance your travel experience.</p>
+                    <button
+                        class="px-12 py-6 border text-white  max-[590px]:text-sm hover:bg-white hover:text-black jost font-semibold text-2xl leading-6 border-white">
+                        Book Now
+                    </button>
+                </div>
+            </div>
+        </section>
+        <!-- ==================================== -->
+        <section class="bg-white  max-[590px]:p-5  max-w-[1920px] mx-auto">
+            <div class="relative">
+                <img class="absolute top-0  max-xl:hidden right-[9%]" src="/assets/images/png/opposit-frame.png" alt="">
+                <img class="mt-[90px] relative me-[310px] ms-auto max-[1025px]:mx-auto  xl:w-[832px] sm:w-[700px]  max-[590px]:w-[500px]  max-[1025px]:mb-[30px]  mb-[120px] "
+                    src="/assets/images/png/driver.png" alt="">
+
+                <div
+                    class="drk-blue-bg max-w-[734px]  max-[1025px]:mx-auto  left-[7.5%]  top-[10%] p-[60px] xl:absolute">
+                    <h2
+                        class="text-[#ED8C0C]  max-[590px]:text-xl underline john font-semibold text-3xl mb-5 leading-[30px]">
+                        Efficient
+                        Transportation Solutions
+                    </h2>
+                    <p class="pop text-lg  max-[590px]:text-base leading-[30px] text-white mb-10">Simplify your travel
+                        with our reliable
+                        transportation options, including car rentals and airport transfers. We provide
+                        convenient and efficient solutions to keep you moving smoothly throughout your journey.</p>
+                    <button
+                        class="px-12 py-6 border text-white  max-[590px]:text-sm hover:bg-white hover:text-black jost font-semibold text-2xl leading-6 border-white">
+                        Book Now
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section class="max-w-[1920px]  max-[590px]:px-5 mb-[90px] mx-auto">
+            <h2
+                class="font-medium text-6xl max-[590px]:text-3xl text-[#41546B]  max-[590px]:mt-5 sm:mt-12 xl:mt-0 leading-[72px] jost text-center">
+                Our <span class="underline text-[#ED8C0C]">Partners</span></h2>
+            <p
+                class="pop font-normal text-lg leading-[30px] max-[590px]:text-base mt-5 mb-[90px] text-center mx-auto text-[#41546B] justify-center flex max-w-[950px]">
+                At Clever Travel Solutions, we proudly partner with leading airlines, luxury hotels, and exclusive
+                resorts worldwide to
+                provide you with unparalleled travel experiences.</p>
+            <div class="flex justify-between ">
+                <div class="overflow-hidden w-full max-w-[2000px]">
+                    <div class="flex animate-slide">
+                        <img src="/assets/images/svg/w-hotel.svg" alt="W Hotels" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/air-canada.svg" alt="Air Canada" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/jet-blue.svg" alt="JetBlue" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/cathay.svg" alt="Cathay Pacific" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/thai.svg" alt="Thai Airways" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/hawaiian.svg" alt="Hawaiian Airlines" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/alitali.svg" alt="Alitalia" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/w-hotel.svg" alt="W Hotels" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/air-canada.svg" alt="Air Canada" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/jet-blue.svg" alt="JetBlue" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/cathay.svg" alt="Cathay Pacific" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/thai.svg" alt="Thai Airways" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/hawaiian.svg" alt="Hawaiian Airlines" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/alitali.svg" alt="Alitalia" class="w-32 h-auto mx-4">
+
+                        <img src="/assets/images/svg/w-hotel.svg" alt="W Hotels" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/air-canada.svg" alt="Air Canada" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/jet-blue.svg" alt="JetBlue" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/cathay.svg" alt="Cathay Pacific" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/thai.svg" alt="Thai Airways" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/hawaiian.svg" alt="Hawaiian Airlines" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/alitali.svg" alt="Alitalia" class="w-32 h-auto mx-4"><img
+                            src="/assets/images/svg/w-hotel.svg" alt="W Hotels" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/air-canada.svg" alt="Air Canada" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/jet-blue.svg" alt="JetBlue" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/cathay.svg" alt="Cathay Pacific" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/thai.svg" alt="Thai Airways" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/hawaiian.svg" alt="Hawaiian Airlines" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/alitali.svg" alt="Alitalia" class="w-32 h-auto mx-4"><img
+                            src="/assets/images/svg/w-hotel.svg" alt="W Hotels" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/air-canada.svg" alt="Air Canada" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/jet-blue.svg" alt="JetBlue" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/cathay.svg" alt="Cathay Pacific" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/thai.svg" alt="Thai Airways" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/hawaiian.svg" alt="Hawaiian Airlines" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/alitali.svg" alt="Alitalia" class="w-32 h-auto mx-4"><img
+                            src="/assets/images/svg/w-hotel.svg" alt="W Hotels" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/air-canada.svg" alt="Air Canada" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/jet-blue.svg" alt="JetBlue" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/cathay.svg" alt="Cathay Pacific" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/thai.svg" alt="Thai Airways" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/hawaiian.svg" alt="Hawaiian Airlines" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/alitali.svg" alt="Alitalia" class="w-32 h-auto mx-4"><img
+                            src="/assets/images/svg/w-hotel.svg" alt="W Hotels" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/air-canada.svg" alt="Air Canada" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/jet-blue.svg" alt="JetBlue" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/cathay.svg" alt="Cathay Pacific" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/thai.svg" alt="Thai Airways" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/hawaiian.svg" alt="Hawaiian Airlines" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/alitali.svg" alt="Alitalia" class="w-32 h-auto mx-4">
+                    </div>
+                </div>
+            </div>
+            <div class="flex justify-center items-center">
+                <div class="overflow-hidden w-full mt-[50px] mb-[50px]">
+                    <div class="flex animate-slideRTL">
+                        <img src="/assets/images/svg/delta.svg" alt="Delta" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/qantas.svg" alt="Qantas" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/alaska.svg" alt="Alaska" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/marriott.svg" alt="Marriott" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/cathay.svg" alt="Cathay Pacific" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/korean-air.svg" alt="Korean Air" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/united.svg" alt="United" class="w-32 h-auto mx-4">
+
+                        <img src="/assets/images/svg/delta.svg" alt="Delta" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/qantas.svg" alt="Qantas" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/alaska.svg" alt="Alaska" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/marriott.svg" alt="Marriott" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/cathay.svg" alt="Cathay Pacific" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/korean-air.svg" alt="Korean Air" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/united.svg" alt="United" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/delta.svg" alt="Delta" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/qantas.svg" alt="Qantas" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/alaska.svg" alt="Alaska" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/marriott.svg" alt="Marriott" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/cathay.svg" alt="Cathay Pacific" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/korean-air.svg" alt="Korean Air" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/united.svg" alt="United" class="w-32 h-auto mx-4">
+
+                        <img src="/assets/images/svg/delta.svg" alt="Delta" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/qantas.svg" alt="Qantas" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/alaska.svg" alt="Alaska" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/marriott.svg" alt="Marriott" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/cathay.svg" alt="Cathay Pacific" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/korean-air.svg" alt="Korean Air" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/united.svg" alt="United" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/delta.svg" alt="Delta" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/qantas.svg" alt="Qantas" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/alaska.svg" alt="Alaska" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/marriott.svg" alt="Marriott" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/cathay.svg" alt="Cathay Pacific" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/korean-air.svg" alt="Korean Air" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/united.svg" alt="United" class="w-32 h-auto mx-4">
+
+                        <img src="/assets/images/svg/delta.svg" alt="Delta" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/qantas.svg" alt="Qantas" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/alaska.svg" alt="Alaska" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/marriott.svg" alt="Marriott" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/cathay.svg" alt="Cathay Pacific" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/korean-air.svg" alt="Korean Air" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/united.svg" alt="United" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/delta.svg" alt="Delta" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/qantas.svg" alt="Qantas" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/alaska.svg" alt="Alaska" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/marriott.svg" alt="Marriott" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/cathay.svg" alt="Cathay Pacific" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/korean-air.svg" alt="Korean Air" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/united.svg" alt="United" class="w-32 h-auto mx-4">
+
+                        <img src="/assets/images/svg/delta.svg" alt="Delta" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/qantas.svg" alt="Qantas" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/alaska.svg" alt="Alaska" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/marriott.svg" alt="Marriott" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/cathay.svg" alt="Cathay Pacific" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/korean-air.svg" alt="Korean Air" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/united.svg" alt="United" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/delta.svg" alt="Delta" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/qantas.svg" alt="Qantas" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/alaska.svg" alt="Alaska" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/marriott.svg" alt="Marriott" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/cathay.svg" alt="Cathay Pacific" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/korean-air.svg" alt="Korean Air" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/united.svg" alt="United" class="w-32 h-auto mx-4">
+
+                        <img src="/assets/images/svg/delta.svg" alt="Delta" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/qantas.svg" alt="Qantas" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/alaska.svg" alt="Alaska" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/marriott.svg" alt="Marriott" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/cathay.svg" alt="Cathay Pacific" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/korean-air.svg" alt="Korean Air" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/united.svg" alt="United" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/delta.svg" alt="Delta" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/qantas.svg" alt="Qantas" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/alaska.svg" alt="Alaska" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/marriott.svg" alt="Marriott" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/cathay.svg" alt="Cathay Pacific" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/korean-air.svg" alt="Korean Air" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/united.svg" alt="United" class="w-32 h-auto mx-4">
+
+                        <img src="/assets/images/svg/delta.svg" alt="Delta" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/qantas.svg" alt="Qantas" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/alaska.svg" alt="Alaska" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/marriott.svg" alt="Marriott" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/cathay.svg" alt="Cathay Pacific" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/korean-air.svg" alt="Korean Air" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/united.svg" alt="United" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/delta.svg" alt="Delta" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/qantas.svg" alt="Qantas" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/alaska.svg" alt="Alaska" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/marriott.svg" alt="Marriott" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/cathay.svg" alt="Cathay Pacific" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/korean-air.svg" alt="Korean Air" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/united.svg" alt="United" class="w-32 h-auto mx-4">
+
+                        <img src="/assets/images/svg/delta.svg" alt="Delta" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/qantas.svg" alt="Qantas" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/alaska.svg" alt="Alaska" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/marriott.svg" alt="Marriott" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/cathay.svg" alt="Cathay Pacific" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/korean-air.svg" alt="Korean Air" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/united.svg" alt="United" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/delta.svg" alt="Delta" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/qantas.svg" alt="Qantas" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/alaska.svg" alt="Alaska" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/marriott.svg" alt="Marriott" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/cathay.svg" alt="Cathay Pacific" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/korean-air.svg" alt="Korean Air" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/united.svg" alt="United" class="w-32 h-auto mx-4">
+
+                        <img src="/assets/images/svg/delta.svg" alt="Delta" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/qantas.svg" alt="Qantas" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/alaska.svg" alt="Alaska" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/marriott.svg" alt="Marriott" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/cathay.svg" alt="Cathay Pacific" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/korean-air.svg" alt="Korean Air" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/united.svg" alt="United" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/delta.svg" alt="Delta" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/qantas.svg" alt="Qantas" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/alaska.svg" alt="Alaska" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/marriott.svg" alt="Marriott" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/cathay.svg" alt="Cathay Pacific" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/korean-air.svg" alt="Korean Air" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/united.svg" alt="United" class="w-32 h-auto mx-4">
+
+                        <img src="/assets/images/svg/delta.svg" alt="Delta" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/qantas.svg" alt="Qantas" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/alaska.svg" alt="Alaska" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/marriott.svg" alt="Marriott" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/cathay.svg" alt="Cathay Pacific" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/korean-air.svg" alt="Korean Air" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/united.svg" alt="United" class="w-32 h-auto mx-4">
+                    </div>
+                </div>
+            </div>
+            <div class="flex justify-center items-center mx-auto gap-24 ">
+                <div class="overflow-hidden w-full max-w-[1700px]">
+                    <div class="flex animate-slide">
+                        <img src="/assets/images/svg/s-r.svg" alt="W Hotels" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/etihad.svg" alt="Air Canada" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/loin.svg" alt="JetBlue" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/thai.svg" alt="Cathay Pacific" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/british-airline.svg" alt="Thai Airways" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/american.svg" alt="Alitalia" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/s-r.svg" alt="W Hotels" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/etihad.svg" alt="Air Canada" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/loin.svg" alt="JetBlue" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/thai.svg" alt="Cathay Pacific" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/british-airline.svg" alt="Thai Airways" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/american.svg" alt="Alitalia" class="w-32 h-auto mx-4">
+
+                        <img src="/assets/images/svg/s-r.svg" alt="W Hotels" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/etihad.svg" alt="Air Canada" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/loin.svg" alt="JetBlue" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/thai.svg" alt="Cathay Pacific" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/british-airline.svg" alt="Thai Airways" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/american.svg" alt="Alitalia" class="w-32 h-auto mx-4">
+
+                        <img src="/assets/images/svg/s-r.svg" alt="W Hotels" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/etihad.svg" alt="Air Canada" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/loin.svg" alt="JetBlue" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/thai.svg" alt="Cathay Pacific" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/british-airline.svg" alt="Thai Airways" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/american.svg" alt="Alitalia" class="w-32 h-auto mx-4">
+
+                        <img src="/assets/images/svg/s-r.svg" alt="W Hotels" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/etihad.svg" alt="Air Canada" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/loin.svg" alt="JetBlue" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/thai.svg" alt="Cathay Pacific" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/british-airline.svg" alt="Thai Airways" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/american.svg" alt="Alitalia" class="w-32 h-auto mx-4">
+
+                        <img src="/assets/images/svg/s-r.svg" alt="W Hotels" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/etihad.svg" alt="Air Canada" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/loin.svg" alt="JetBlue" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/thai.svg" alt="Cathay Pacific" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/british-airline.svg" alt="Thai Airways" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/american.svg" alt="Alitalia" class="w-32 h-auto mx-4">
+
+                        <img src="/assets/images/svg/s-r.svg" alt="W Hotels" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/etihad.svg" alt="Air Canada" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/loin.svg" alt="JetBlue" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/thai.svg" alt="Cathay Pacific" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/british-airline.svg" alt="Thai Airways" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/american.svg" alt="Alitalia" class="w-32 h-auto mx-4">
+
+                        <img src="/assets/images/svg/s-r.svg" alt="W Hotels" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/etihad.svg" alt="Air Canada" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/loin.svg" alt="JetBlue" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/thai.svg" alt="Cathay Pacific" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/british-airline.svg" alt="Thai Airways" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/american.svg" alt="Alitalia" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/s-r.svg" alt="W Hotels" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/etihad.svg" alt="Air Canada" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/loin.svg" alt="JetBlue" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/thai.svg" alt="Cathay Pacific" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/british-airline.svg" alt="Thai Airways" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/american.svg" alt="Alitalia" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/s-r.svg" alt="W Hotels" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/etihad.svg" alt="Air Canada" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/loin.svg" alt="JetBlue" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/thai.svg" alt="Cathay Pacific" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/british-airline.svg" alt="Thai Airways" class="w-32 h-auto mx-4">
+                        <img src="/assets/images/svg/american.svg" alt="Alitalia" class="w-32 h-auto mx-4">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- =========================================== -->
+        <section class="max-w-[1920px]  max-[1024px]:px-5  max-[590px]:px-5 mb-[120px] mx-auto ">
+            <img class="bg-no-repeat max-w-[1760px] mx-auto bg-cover w-full"
+                src="/assets/images/png/plane-with-logo.png" alt="">
+        </section>
+        <!-- =========================== -->
+        <section class="max-w-[1920px] max-[1024px]:px-5 mb-[120px] mx-auto px-4">
+            <div class="max-w-[1760px] max-[590px]:mt-[-50px]  mx-auto">
+                <h2
+                    class="font-medium text-4xl md:text-5xl lg:text-6xl text-[#41546B] leading-tight lg:leading-[72px] jost text-start">
+                    Happy <span class="underline text-[#ED8C0C]">Travelers</span>
+                </h2>
+                <p
+                    class="pop font-normal text-base md:text-lg leading-6 md:leading-[30px] text-[#41546B] max-w-full md:max-w-[950px] mt-4">
+                    Experience the joy of traveling with Clever Travel Solutions through the words of our satisfied
+                    clients.
+                    Here’s what they have to say about their journeys with us:
+                </p>
+                <div class="flex flex-col justify-center md:flex-row flex-wrap mt-10 md:mt-[90px] gap-5 mx-auto">
+                    <div class="w-full md:w-[573px] p-[30px] bg-[#FEF9F3]">
+                        <div class="flex justify-between">
+                            <img src="/assets/images/svg/double-comma.svg" alt="">
+                            <img src="/assets/images/svg/stars.svg" alt="">
+                        </div>
+                        <div class="flex mt-[41px]">
+                            <img src="/assets/images/svg/1st-crd-pic.svg" alt="">
+                            <div class="ml-4">
+                                <h4 class="john font-medium text-xl md:text-2xl mt-1 leading-6">Ahmad Bator</h4>
+                                <h4 class="pop text-[#ED8C0C] font-medium text-lg md:text-xl leading-5 mt-2">Director of
+                                    Zaara
+                                </h4>
+                            </div>
+                        </div>
+                        <p
+                            class="max-w-full md:max-w-[400px] pop font-normal text-base md:text-lg leading-6 md:leading-[30px] text-[#41546B] mt-5">
+                            Lorem ipsum dolor sit amet consectetur. Nulla nullam cras porttitor vel in ornare est
+                            commodo.
+                            Rhoncus diam sed pellentesque interdum.
+                        </p>
+                    </div>
+                    <!-- Card 2 -->
+                    <div class="w-full md:w-[573px] p-[30px] bg-[#FEF9F3]">
+                        <div class="flex justify-between">
+                            <img src="/assets/images/svg/double-comma.svg" alt="">
+                            <img src="/assets/images/svg/stars.svg" alt="">
+                        </div>
+                        <div class="flex mt-[41px]">
+                            <img src="/assets/images/svg/2nd-crd.svg" alt="">
+                            <div class="ml-4">
+                                <h4 class="john font-medium text-xl md:text-2xl mt-1 leading-6">Craig Botosh</h4>
+                                <h4 class="pop text-[#ED8C0C] font-medium text-lg md:text-xl leading-5 mt-2">Director of
+                                    Zaara
+                                </h4>
+                            </div>
+                        </div>
+                        <p
+                            class="max-w-full md:max-w-[400px] pop font-normal text-base md:text-lg leading-6 md:leading-[30px] text-[#41546B] mt-5">
+                            Lorem ipsum dolor sit amet consectetur. Nulla nullam cras porttitor vel in ornare est
+                            commodo.
+                            Rhoncus diam sed pellentesque interdum.
+                        </p>
+                    </div>
+                    <!-- Card 3 -->
+                    <div class="w-full md:w-[573px] p-[30px] bg-[#FEF9F3]">
+                        <div class="flex justify-between">
+                            <img src="/assets/images/svg/double-comma.svg" alt="">
+                            <img src="/assets/images/svg/stars.svg" alt="">
+                        </div>
+                        <div class="flex mt-[41px]">
+                            <img src="/assets/images/svg/3rd-crd.svg" alt="">
+                            <div class="ml-4">
+                                <h4 class="john font-medium text-xl md:text-2xl mt-1 leading-6">Ashlynn Carder</h4>
+                                <h4 class="pop text-[#ED8C0C] font-medium text-lg md:text-xl leading-5 mt-2">Director of
+                                    Zaara
+                                </h4>
+                            </div>
+                        </div>
+                        <p
+                            class="max-w-full md:max-w-[400px] pop font-normal text-base md:text-lg leading-6 md:leading-[30px] text-[#41546B] mt-5">
+                            Lorem ipsum dolor sit amet consectetur. Nulla nullam cras porttitor vel in ornare est
+                            commodo.
+                            Rhoncus diam sed pellentesque interdum.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="max-w-[1920px]  max-[1024px]:px-5 min-h-screen ">
+            <div class="flex flex-wrap  justify-center mx-auto">
+                <div
+                    class="2xl:mb-0 sm:px-5 max-[769px]:max-w-[700px] max-[1025px]:max-w-[900px] max-[590px]:w-[390px] max-[321px]:w-[300px]   max-[391px]:w-[350px] max-[590px]:mb-10 max-[590px]:mx-auto lg:px-0 sm:mb-[30px] border  border-black ">
+                    <div class="flex flex-wrap justify-between">
+                        <h2
+                            class="jost mt-[60px] max-[426px]:ms-[30px] ms-[60px] font-medium max-[590px]:text-4xl text-6xl leading-[72px]">
+                            Get in <span class="underline text-[#ED8C0C]">touch</span></h2>
+                        <img class="mt-14 max-[426px]:mt-[30px] me-[60px] max-[590px]:w-[230px] max-[426px]:ms-[30px] ms-[60px]"
+                            src="/assets/images/svg/nav-bar-logo.svg" alt="">
+                    </div>
+                    <div class="ms-[60px] max-[426px]:ms-[30px] mt-[60px] me-[60px]  max-w-[918px]">
+                        <div class="flex flex-wrap justify-between">
+                            <div class="">
+                                <h4 class="pop font-medium mb-[15px] text-base leading-4 text-[#41546B]">First Name</h4>
+                                <input type="first Name" required
+                                    class="font-medium border border-black outline-none max-[426px]:w-[350px] max-[376px]:w-[300px] max-[321px]:w-[250px] w-[449px] py-[14px] px-[15px]  lg:text-base text-base pop leading-4 bg-transparent"
+                                    placeholder="Enter Your first Name...">
+                            </div>
+                            <div class="">
+                                <h4 class="pop font-medium mb-[15px] text-base leading-4 text-[#41546B]">Email</h4>
+                                <input type="Email" required
+                                    class="font-medium border border-black outline-none max-[426px]:w-[350px] max-[376px]:w-[300px] max-[321px]:w-[250px] w-[449px] py-[14px] px-[15px] lg:text-base text-base pop leading-4 bg-transparent"
+                                    placeholder="Enter Email...">
+                            </div>
+                        </div>
+                        <h4 class="pop font-medium mb-[15px] mt-[30px] text-base leading-4 text-[#41546B]">Message</h4>
+                        <input type="Email" required
+                            class="font-medium border border-black outline-none max-[768px]:w-[600px] max-[1025px]:max-w-[800px] max-[426px]:w-[350px] max-[376px]:w-[250px] w-[918px] pb-[60px] pt-3 px-[15px] lg:text-base text-base pop leading-4 bg-transparent"
+                            placeholder="Lorem ipsum dolor sit amet consectetur...">
+                        <div class="flex mb-24 justify-between">
+                            <div class="flex cursor-pointer mt-[54px]">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_1_423)">
+                                        <path
+                                            d="M22.7674 8.73571L10.5702 20.7974C8.54925 22.7962 5.27228 22.7962 3.25129 20.7974C1.2303 18.7987 1.2303 15.5586 3.25129 13.5599L14.2293 2.70444C15.5769 1.37222 17.7607 1.37222 19.1083 2.70444C20.456 4.03662 20.456 6.19729 19.1083 7.52947L8.1303 18.3849C7.45692 19.0515 6.3646 19.0515 5.69036 18.3849C5.01699 17.7193 5.01699 16.639 5.69036 15.9724L15.4484 6.32319L14.2284 5.11695L4.47128 14.767C3.12366 16.0992 3.12366 18.2599 4.47128 19.592C5.81889 20.9243 8.00268 20.9243 9.35029 19.592L20.3283 8.73657C22.3493 6.73787 22.3493 3.49776 20.3283 1.49902C18.3073 -0.499674 15.0304 -0.499674 13.0094 1.49902L1.42135 12.9576L1.46334 12.9996C-0.641633 15.6759 -0.456583 19.5449 2.03134 22.0045C4.51926 24.4642 8.43016 24.6484 11.1374 22.5657L11.1794 22.6077L23.9865 9.94281L22.7674 8.73571Z"
+                                            fill="#41546B" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_1_423">
+                                            <rect width="24" height="24" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+
+                                <h4 class="ms-4 jost font-medium text-2xl leading-6 text-[#41546B]">Attach Files</h4>
+                            </div>
+                            <button
+                                class="max-w-[152px] mt-[30px] bg-[#ED8C0C] max-[590px]:text-base hover:bg-[#020206]  border py-6 px-12 text-white jost font-semibold text-2xl leading-6 ">
+                                Send
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+                <img class="absolute right-36 mt-14 max-[1440px]:hidden" src="/assets/images/png/opposit-frame.png"
+                    alt="">
+                <div
+                    class="max-w-[574px] max-[590px]:w-[390px] max-[321px]:w-[300px]  max-[391px]:w-[350px]  relative bg-footer max-[590px]:pe-10 pt-[60px] pb-[59px] max-[590px]:ps-[30px] ps-[60px] pe-[159px]">
+                    <h2
+                        class="underline text-[#ED8C0C] jost font-medium  max-[591px]:text-3xl text-6xl leading-[72px] ">
+                        Contact</h2>
+                    <h4
+                        class="underline text-white jost max-[590px]:mt-[30px] font-medium text-3xl  max-[590px]:text-xl leading-[30px]  mt-[60px]">
+                        Location:</h4>
+                    <p class="pop font-normal text-lg max-[590px]:text-base leading-[18px] text-white mt-5">123 Main
+                        Street, Anytown, CA
+                        12345, USA</p>
+                    <h2
+                        class="underline text-white jost font-medium max-[590px]:mt-[25px] max-[590px]:text-xl text-3xl leading-[30px] mt-10 ">
+                        Email:</h2>
+                    <p class="pop font-normal text-lg max-[590px]:text-base leading-[18px] text-white mt-5">
+                        clever.travel@example.com</p>
+                    <h2
+                        class="underline text-white jost font-medium text-3xl max-[590px]:text-xl leading-[30px] mt-10 ">
+                        Phone:</h2>
+                    <p class="pop font-normal text-lg leading-[18px] text-white max-[590px]:mt-[25px] mt-5">+01 234 5676
+                        23</p>
+                    <div class="mt-10 flex  max-w-[208px] justify-between">
+                        <a href=""> <img src="/assets/images/svg/twiter.svg" alt="">
+                        </a>
+                        <a href="">
+                            <img src="/assets/images/svg/linkedin.svg" alt="">
+                        </a>
+                        <a href="">
+                            <img src="/assets/images/svg/insta.svg" alt="">
+                        </a>
+                        <a href="">
+                            <img src="/assets/images/svg/FB.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="mt-[60px] max-xl:hidden justify-center mx-auto">
+                    <svg width="1760" height="1" viewBox="0 0 1760 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <line y1="0.5" x2="1760" y2="0.5" stroke="#41546B" stroke-opacity="0.5" />
+                    </svg>
+                </div>
+
+            </div>
+
+            <div class="sm:pt-[15px] flex mt-[30px] max-w-[1760px] mx-auto justify-between sm:pb-[22px] py-3">
+                <p class=" text-base sm:text-lg sm:leading-8 font-normal pop text-black opacity-70">
+                    Copyright 2024 JesMor Enterprises, All Rights Reserved.</p>
+                <p class="pop font-normal text-base ">Powered by GoDaddy</p>
+            </div>
+        </footer>
+        <script>
+            const menuicon = document.querySelector(".menubar");
+            const menuList = document.querySelector(".menulist");
+            const menubarFirst = document.querySelector(".menubarFirst");
+            const menubarSecond = document.querySelector(".menubarSecond");
+            const menubarThird = document.querySelector(".menubarThird");
+            const body = document.body;
+
+            menuicon.addEventListener("click", toggleMenu);
+
+            function toggleMenu() {
+                if (window.innerWidth < 1024) {
+                    menuList.classList.toggle("-right-full");
+                    menuList.classList.toggle("right-0");
+                    menubarFirst.classList.toggle("rotate-[40deg]");
+                    menubarSecond.classList.toggle("hidden");
+                    menubarThird.classList.toggle("-rotate-[40deg]");
+                    body.classList.toggle("overflow-hidden");
+                }
+            }
+            const menuItems = document.querySelectorAll(".menulist button, .menulist a");
+            menuItems.forEach(item => {
+                item.addEventListener("click", () => {
+                    if (window.innerWidth < 992) {
+                        toggleMenu();
+                    }
+                });
+            });
+        </script>
+    </body>
+
+</html>
