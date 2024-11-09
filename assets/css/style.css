@@ -34,10 +34,27 @@
 .animate-slide {
     animation: slide 30s linear infinite;
 }
+.animate-slide:hover{
+    animation-play-state: paused;
+}
 
 .animate-slideRTL {
-    animation: slideRTL 55s linear infinite;
+    animation: slideRTL 15s linear infinite;
 }
+.animate-slideRTL:hover {
+    animation-play-state: paused;
+}
+
+@keyframes slideRTL {
+    0% {
+        transform: translateX(-50%);
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
+}
+
 
 @keyframes slide {
     0% {
@@ -49,13 +66,4 @@
     }
 }
 
-@keyframes slideRTL {
-    0% {
-        transform: translateX(-100%);
-    }
-
-    100% {
-        transform: translateX(100%);
-    }
-}
 
